@@ -1,5 +1,4 @@
 ### Python environment setup with Conda
-```bash
 conda create -n myenv python=3.9
 conda activate myenv
 pip install torch==1.10.1 torchvision==0.13.1 torchaudio==0.12.1 --trusted-host download.pytorch.org
@@ -15,6 +14,5 @@ pip install pytorch-lightning # required by graphgym
 pip install setuptools==59.5.0
 
 ### Running the file
-```bash
-# Run
+
 python main.py --cfg configs/GRIT/zinc-GRIT.yaml  wandb.use 
